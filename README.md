@@ -8,20 +8,35 @@ This project performs rigorous Exploratory Data Analysis (EDA), automated featur
 ## 📂 Repository Structure
 
 ├── models/
+
 │   ├── model_1_linear.pkl            # Multiple Linear Regression Pipeline
+
 │   ├── model_2_polynomial.pkl        # Polynomial Regression Pipeline (Degree 2)
+
 │   ├── model_3_decision_tree.pkl     # Tuned Decision Tree Regressor
+
 │   └── model_4_random_forest.pkl     # Random Forest Regressor
+
 ├── results/
+
 │   ├── comparison_table.png          # Side-by-side performance comparison of all models
+
 │   ├── feature_importance.png        # Random Forest feature importance chart
+
 │   ├── eda_runs_distribution.png     # Distribution of batsman runs per match
+
 │   ├── eda_avg_vs_runs.png           # Player batting average vs total runs scatter plot
+
 │   ├── eda_strike_rate_dist.png      # Density distribution of strike rates
+
 │   ├── eda_top_venues.png            # Top venues by match count
+
 │   └── eda_toss_decision.png         # Toss decision breakdown (Bat vs Field)
+
 ├── notebooks/
+
 │   └── analysis.ipynb                # Main Jupyter Notebook containing code, EDA, and training
+
 └── README.md
 
 
